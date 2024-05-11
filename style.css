@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+/* header start */
+/* header top */
+
+header{
+    width: 100%;
+    margin: auto;
+}
+
+.navtop{
+
+    height: 60px;
+    width: 100%;
+    background-color: #149777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+div > img{
+    height: 33px;
+    width: 120px;
+    padding-top: 5px ;
+    cursor: pointer;
+}
+
+
+.lef2{
+    width: 60px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.lef3{
+    border: 1px groove rgb(51, 112, 108);
+    padding: 0.3rem 0.6rem;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+div a{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.topspace{
+    height:45px ;
+    width: 500px;
+}
+
+.right1 a,
+.right2 a{
+    gap: 10px;
+}
+
+.right3{
+    background-color: #FFC800;
+    height:40px;
+    width: 140px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1rem;
+   font-weight: 700;
+   border-radius: 5px;
+}
+.right1, .right2{
+    width: 70px;
+}
+
+.postad{
+    color: #673500;
+}
+
+.icontextsize{
+    font-size: 0.8rem;
+}
+
+
+
+/* -------------navbottom---------- */
+
+
+.navbottom{
+    height: 190px;
+    width: 100%;
+    background-color: #149777;  
+}
+
+.locationsection{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.location{
+    height: 30px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color:#10846F ;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    font-size: 1rem; 
+    cursor: pointer;
+}
+
+.searchbox{
+    height:60px ;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+.searchbox input{
+    font-size: 1rem;
+    padding: 10px;
+    width: 777px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+}
+
+
+.searchbox i{
+    height: 55px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC800;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: #673500;
+    cursor: pointer; 
+}
+
+
+
+/* -----------------ads-------------- */
+
+
+.googleads{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.googleads img{
+    height: 90px;
+    width: 75%;
+}
+
+
+/* ----------------catatory section---------------- */
+
+.catagpry_section{
+    height: 400px;
+    width: 75%;
+    margin: auto  
+}
+
+.catsection{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 50px;
+}
+
+.cathead{
+    height: 80px;
+    width: 75%;
+    margin: auto;
+    padding-top: 30px;
+    color: #2f3432;
+}
+
+.catgroup{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    cursor: pointer;
+    
+}
+.iconcat i{
+    font-size: 1.5rem;
+}
+
+.paracat p{
+    font-size: 0.8rem;
+    color: #707676;
+}
+
+.paracat h4{
+    color: #2f3432;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* ----------------section two------------- */
+
+/* ---left---------- */
+
+.sectiontwo{
+    height: 200px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0px 3px 3px 3px rgba(188, 188, 188, 0.29);
+-webkit-box-shadow: 0px 3px 3px 3px rgba(171, 171, 171, 0.283);
+-moz-box-shadow: 0px 3px 3px 3px rgb(255, 255, 255);
+}
+
+.sec2left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 28px;
+    border-right: 1px solid rgb(213, 213, 213);
+
+}
+
+.moneyimg i{
+    font-size: 6rem;
+}
+
+.headleft{
+    color: #2f3432;
+    letter-spacing: 0.7px;
+    padding: 5px;
+}
+
+.paraleft{
+    font-size: 0.9rem;
+    padding: 5px;
+    color: #424e4e;
+    line-height: 1.3rem;
+
+}
+
+.moneybtn{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC800;
+    border-radius: 20px;
+    color: #673500;
+    font-weight: 500;
+    gap: 8px;
+    cursor: pointer;
+}
+
+/* ---right---------- */
+
+.sec2right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    gap: 8px;
+    padding: 20px;
+}
+.sec2right p{
+    font-size: 0.9rem;
+    color: #424e4e;
+    line-height: 1.3rem;
+}
+
+.rightlogo img{
+    height: 38px;
+    width: 150px;
+    align-items: self-start;
+    
+}
+
+.jobbtn{
+    height: 40px;
+    width: 200px;
+    background-color:#0074ba ;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    
+}
+
+.jobbtn p{
+    color: white;
+}
+
+/* --------section 3---------- */
+
+.sectionthree{
+    height: 280px;
+    width: 75%;
+    margin: auto  
+}
+.qclink{
+    width: 100%;
+    margin: auto;
+    padding-top: 40px;
+    color: #2f3432;
+    height: 80px;
+}
+.allqlpara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.qlpara{
+    height: 140px;
+    width: 250px;
+    background-color: #F3F6F5;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+}
+
+.qlpara h5{
+    color: #2f3432;
+}
+
+
+.testlink a{
+    display: inline;
+    color: #424e4e;
+}
+
+
+
+/* --------------section 4--------- */
+
+.aboutbikroy{
+    height: 175px;
+    width: 75%;
+    margin: auto;
+    color: #707676;
+    
+}
+.aboutinfo h3{
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.aboutinfo p{
+    word-spacing: 0.1rem;
+}
+
+.showmbtn{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 7px;
+}
+
+/* --------bottom border */
+.btmborder{
+    width: 100%;
+    height: 2px;
+    border-bottom: 2px solid #149777;
+}
+
+
+/* --------------footer----------- */
+/* footer 1, para1 */
+
+
+
+footer{
+    height: 380px;
+    width: 75%;
+    margin: auto;
+}
+
+.footerone{
+    height: 300px;
+    display: flex;
+    align-items: self-start;
+    justify-content: space-around;
+    border-bottom: 1px groove rgb(229, 229, 229);
+}
+
+.footpara1{
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.footpara1 h4{
+    color: #424e4e;
+}
+
+.app{
+    height: 60px;
+    display: flex;
+    gap: 15px;
+    margin:5px 0px 20px 0px;
+    
+}
+
+.app img{
+    height: 50px;
+    width: 135px;
+
+}
+
+.likefb{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+    margin-left: 15px;
+}
+.likefb h4{
+    color: #3b5999;
+}
+
+.likefb img{
+    height: 25px;
+    width: 22px;
+}
+
+.footpara1 a{
+    color: #0074ba;
+}
+
+
+/* footer 1, para2 * para3 + para4 + para5 */
+
+.footpara2{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 20px;
+    
+}
+.footpara2 a{
+    text-decoration: none;
+    color: #0074ba;
+    
+}
+   
+.footpara2 h4{
+    margin-bottom: 25px;
+    color: #424e4e;
+    font-weight: 600;
+}
+
+/* --------footer 2 copyright */
+
+
+.footertwo{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.copyright{
+    text-align: left;
+    color: #2f3432;
+}
+
+.space{
+    width: 520px;
+}
+.footerlogo{
+    padding: 10px;
+}
+
+.footerlogo img{
+    height: 48px;
+    width: 90px;
+
+}
+/* ----------------home page ind--------- */
